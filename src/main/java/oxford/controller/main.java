@@ -12,5 +12,11 @@ public class main {
 
         return "index";
     }
+    @RequestMapping("/one")
+    public String one(){
+
+
+        return "one";
+    }
 
 }
