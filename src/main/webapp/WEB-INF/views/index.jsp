@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 
   <meta charset="utf-8">
@@ -8,7 +5,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Safe & Sound</title>
+  <title>Creative - Start Bootstrap Theme</title>
 
   <!-- Font Awesome Icons -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -58,7 +55,7 @@
     <div class="container h-100">
       <div class="row h-100 align-items-center justify-content-center text-center">
         <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">Safe & Sound</h1>
+          <h1 class="text-uppercase text-white font-weight-bold">Your Favorite Source of Free Bootstrap Themes</h1>
           <hr class="divider my-4">
         </div>
         <div class="col-lg-8 align-self-baseline">
