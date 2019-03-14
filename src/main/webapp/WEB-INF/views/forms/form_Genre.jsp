@@ -11,8 +11,8 @@
 
 
 
-<form:form method="post" modelAttribute="party"><br>
-    Imie instruktora:         <form:input path="name"/><br>
+<form:form method="post" modelAttribute="genre"><br>
+    Genre:        <form:input path="name"/><br>
     <form:errors path="name"/><br>
 
 

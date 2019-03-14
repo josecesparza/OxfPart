@@ -18,14 +18,14 @@ public class club {
     @Autowired
     private ClubRepostiory clubRepostiory;
 
-    @RequestMapping(value = "/add", method = RequestMethod.GET)
-    public String showUserForm(Model model) {
+    @RequestMapping(value = "/add/club", method = RequestMethod.GET)
+    public String club(Model model) {
         model.addAttribute("club", new Club());
         return "forms/form_Club";
     }
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
-    public String processSimple(@Valid Club club, BindingResult result) {
+    @RequestMapping(value = "/add/club", method = RequestMethod.POST)
+    public String clubSaving(@Valid Club club, BindingResult result) {
         if (result.hasErrors()) {
             return "forms/form_Club";
         }
